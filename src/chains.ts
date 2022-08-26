@@ -227,6 +227,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
+    4002,
+    {
+      id: 4002,
+      nativeCurrency: FTM,
+      type: 'ftmTest',
+      fullName: 'Fantom Testnet',
+      shortName: 'FTM Testnet',
+      explorerUrl: `https://testnet.ftmscan.com/`,
+      testnet: true,
+    },
+  ],
+  [
     1666600000,
     {
       id: 1666600000,
